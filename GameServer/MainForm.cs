@@ -15,5 +15,11 @@ namespace GameServer
             richTextBox1.AppendText("Server Starting...");
             richTextBox2.AppendText("Server Starting...");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            General.StartGameServer();
+            button1.Enabled = false;
+        }
     }
 }

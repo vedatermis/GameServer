@@ -11,6 +11,7 @@ namespace GameServer
         public Kaan_ByteBuffer buffer;
 
         public int connectionId;
+        public bool PlayerInGame = false;
 
         public void Start()
         {
